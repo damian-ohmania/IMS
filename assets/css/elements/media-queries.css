@@ -1,0 +1,178 @@
+/********************** Typo ************************* *
+ *  1. Small (tablet portrait) > 640px
+ *  2. Medium (tablet landscape) > 960px
+ *  3. Large (laptop) > 1200px
+ *  4. XLarge (desktop) > 1600px
+ *  5. Medium (tablet landscape) < 959px
+ *  6. Small (tablet portrait) < 639px
+ *  7. Small (mobile) < 479px
+*****************************************************/
+
+/******** 1. Small (tablet portrait) > 640px ********/
+
+@media only screen and (min-width: 640px) {
+    h2, .single-product h1 {
+        font-size: 38px;
+    }
+    h3 {
+        font-size: 32px;
+    }
+    h4,
+    .cart-notice span {
+        font-size: 24px;
+    }
+    .box-padding {
+        padding: 50px;
+    }
+    .uk-button,
+    .uk-button-link,
+    input[type="submit"],
+    .woocommerce button.button.alt,
+    .woocommerce a.button,
+	#mailing-list ._form._form_5._inline-form ._submit {
+        font-size: 18px;
+    }
+    input[type="submit"],
+	#mailing-list ._form._form_5._inline-form ._submit {
+        padding: 10px 50px;
+    }
+    .uk-navbar-nav > li > a,
+    .search-btn {
+		padding: 0 20px 20px 0;
+		margin-right: 20px;
+    }
+    label,
+    .uk-legend {
+        font-size: 16px;
+    }
+    .woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+        float: right;
+        width: 50%;
+    }
+	#mailing-list ._form_element._x78523066,
+	#mailing-list ._form_element._x36795815 {
+		width: 47%;
+		margin: 0 1%;
+		float: right;
+	}
+	#mailing-list ._form_element._field1 {
+		clear: both;
+	}
+	#mailing-list div._form-title {
+		font-size: 32px;
+	}
+	#mailing-list div._html-code p {
+		font-size: 24px;
+	}
+	.woocommerce-cart table.cart .product-thumbnail {
+		width: 250px;
+	}
+	.nutrition h3 {
+        font-weight: 28px;
+    }
+}
+
+/******* 2. Medium (tablet landscape) > 960px *******/
+
+@media only screen and (min-width: 960px) {
+	header {
+		padding: 20px 0 0;
+	}
+    h1 {
+        font-size: 42px;
+    }
+    .section-large  {
+        padding: 100px 0;
+    }
+    p {
+        font-size: 18px;
+    }
+    .qib-container .quantity input.qty {
+        font-size: 18px !important;
+    }
+    .home-about .position-top {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    /**** 2.3. Shop ****/
+    .product-type h2 {
+        font-size: 28px;
+    }
+    .product-type h4 {
+        font-size: 18px;
+    }
+    .form-box {
+        margin-left: 70px;
+    }
+    .uk-table th,
+    .woocommerce table.woocommerce-cart-form__contents th,
+    .woocommerce-cart table.cart td {
+        font-size: 18px;
+    }
+    .woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+        float: right;
+        width: 31%;
+    }
+}
+
+/************ 3. Large (laptop) > 1200px ************/
+
+@media only screen and (min-width: 1200px) {
+
+    .uk-navbar-nav > li > a {
+        font-size: 13px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    .section-large  {
+        padding: 140px 0;
+    }
+    .box-padding {
+        padding: 0 100px;
+    }
+    .contact-info li a {
+        font-size: 16px;
+    }
+    .paddimg-bottom {
+        padding-bottom: 125px;
+    }
+}
+
+/*********** 4. XLarge (desktop) > 1600px ***********/
+
+@media only screen and (min-width: 1600px) {
+    .uk-navbar-nav > li > a {
+        font-size: 14px;
+    }
+    .contact-info li a {
+        font-size: 18px;
+    }
+}
+
+/******* 5. Medium (tablet portrait) < 959px *******/
+
+@media only screen and (max-width: 959px) {
+    .hero-section .home-box {
+        min-height: 400px !important;
+    }
+}
+
+/******* 6. Medium (tablet landscape) < 639px *******/
+
+@media only screen and (max-width: 639px) {
+    .hero-section .home-box {
+        min-height: 250px !important;
+    }
+}
+
+/******* 7. Medium (tablet landscape) < 479px *******/
+
+@media only screen and (max-width: 479px) {
+	.woocommerce-page table.cart td.actions .input-text {
+		width: 100%;
+	}
+}

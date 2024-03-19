@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="20px" viewBox="0 0 55 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Link-Button" transform="translate(1.000000, -1.000000)" stroke="#D49B28" stroke-width="2">
+            <g id="Group-7" transform="translate(0.000000, 2.000000)">
+                <path d="M0,8.5 L53,8.5" id="Stroke-1"></path>
+                <path d="M53,9 L36,0" id="Stroke-3"></path>
+                <path d="M36,18 L53,9" id="Stroke-5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

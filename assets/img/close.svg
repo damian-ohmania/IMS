@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cart-Item" transform="translate(-1238.000000, -19.000000)">
+            <g id="Group-3" transform="translate(1238.000000, 19.000000)">
+                <polygon id="Clip-2" points="0 0 23 0 23 23 0 23"></polygon>
+                <path d="M17.7794528,15.3809603 L15.496535,17.6641956 L11.5003175,13.6679781 L7.50410006,17.6641956 L5.22054723,15.3809603 L9.21676468,11.3847428 L5.22054723,7.38884287 L7.50410006,5.10560755 L11.5003175,9.1015075 L15.496535,5.10560755 L17.7794528,7.38884287 L13.7832353,11.3847428 L17.7794528,15.3809603 Z M11.5003175,0 C5.14878931,0 0,5.1484718 0,11.4996825 C0,17.8512107 5.14878931,23 11.5003175,23 C17.8515282,23 23,17.8512107 23,11.4996825 C23,5.1484718 17.8515282,0 11.5003175,0 Z" id="Fill-1" fill="#D59B28"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,114 @@
+/********************** Typo ************************* *
+ *  1. Fonts
+ *  2. General
+ *  3. Headlines
+ *  4. Content Elements
+*****************************************************/
+
+/********************* 1. Fonts *********************/
+
+@font-face {
+    font-family: 'Museo Slab';
+    src: url('../../fonts/MuseoSlab-700.eot');
+    src: url('../../fonts/MuseoSlab-700.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/MuseoSlab-700.woff2') format('woff2'),
+        url('../../fonts/MuseoSlab-700.woff') format('woff'),
+        url('../../fonts/MuseoSlab-700.ttf') format('truetype'),
+        url('../../fonts/MuseoSlab-700.svg#MuseoSlab-700') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Slab';
+    src: url('../../fonts/MuseoSlab-500.eot');
+    src: url('../../fonts/MuseoSlab-500.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/MuseoSlab-500.woff2') format('woff2'),
+        url('../../fonts/MuseoSlab-500.woff') format('woff'),
+        url('../../fonts/MuseoSlab-500.ttf') format('truetype'),
+        url('../../fonts/MuseoSlab-500.svg#MuseoSlab-500') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/******************** 2. General ********************/
+.custom-list {
+    padding: 0;
+    list-style: none;
+}
+a {
+    display: block;
+}
+p a {
+    display: inline-block;
+}
+a:hover {
+    text-decoration: none;
+    color: #d59b28;
+}
+mark {
+    background: #d59b28;
+}
+em,
+ins {
+    color: #d59b28;
+}
+ins {
+    background: transparent;
+    color: #d59b28;
+}
+
+/******************** 3. Headline ********************/
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+h3 {
+    font-weight: 500;
+    font-size: 28px;
+}
+h4 {
+    color: #d59b28;
+    font-size: 20px;
+    font-family: 'Museo Slab';
+    margin: 0 0 25px;
+}
+h5 {
+    text-transform: inherit;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0;
+}
+h6 {
+    font-size: 16px;
+    color: #13181b;
+    margin: 0;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0 0 20px;
+}
+.uk-text-large {
+    font-size: 24px;
+    color: #13181b;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+/**************** 4. Content Elements ****************/

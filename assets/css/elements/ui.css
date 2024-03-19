@@ -1,0 +1,497 @@
+/*********************** UI ************************* *
+ *  1. Buttons
+ *  2. Forms
+ *      2.1. Input
+ *      2.2. Placeholder
+ *      2.3. Misc Form Elements
+ *  3. Misc UI Elements
+****************************************************/
+
+/******************* 1. Buttons ********************/
+
+.uk-button,
+.woocommerce button.button.alt,
+.woocommerce a.button,
+.woocommerce button.button {
+    background: transparent;
+    border: 2px solid #d59b28;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    min-height: 42px;
+    max-height: 42px;
+    text-transform: uppercase;
+    padding: 0 30px;
+    border-radius: 0;
+    line-height: 38px;
+}
+.uk-button:hover,
+.uk-button:focus,
+.woocommerce button.button.alt:focus,
+.woocommerce button.button.alt:hover,
+.woocommerce a.button:focus,
+.woocommerce a.button:hover,
+.woocommerce button.button:focus,
+.woocommerce button.button:hover {
+    background: #d59b28;
+    color: #fff;
+}
+.uk-button-link {
+    text-transform: uppercase;
+    color: #d59b28;
+    font-size: 16px;
+}
+.uk-button-link:hover,
+.uk-button-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+.uk-button-link:hover img,
+.home-box:hover .uk-button-link img,
+.uk-button-link:hover svg,
+.home-box:hover .uk-button-link svg {
+    animation: slide1 1s ease-in-out infinite;
+    fill: #fff;
+}
+@keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(5px, 0);
+    }
+  }
+.uk-button-primary,
+.woocommerce button.button.alt,
+.woocommerce a.button.wc-forward,
+.woocommerce-cart table.cart td a.uk-button-date:hover,
+.woocommerce-cart table.cart td a.uk-button-date:focus {
+    background: #d59b28;
+    color: #fff;
+}
+.woocommerce-cart table.cart td a.uk-button-date {
+    cursor: inherit;
+}
+.woocommerce-cart table.cart td a.uk-button-date:hover,
+.woocommerce-cart table.cart td a.uk-button-date:focus {
+    color: #979797;
+    background: #fff;
+    border: 2px solid #d59b28;
+}
+.uk-button-primary:hover,
+.uk-button-primary:focus,
+.woocommerce button.button.alt:hover,
+.woocommerce button.button.alt:focus {
+    background: #20282d;
+    color: #fff;
+}
+.uk-button-default,
+.woocommerce button.button.alt.disabled {
+    background: #20282d;
+    border-color: #fff;
+}
+.uk-button-date,
+.woocommerce-cart table.cart td a.uk-button-date {
+    color: #979797;
+    background: #fff;
+}
+.uk-button-img {
+    padding: 0;
+    background: url(../../img/buy-btn.jpg) no-repeat center center #000;
+}
+.uk-button-img:hover,
+.uk-button-img:focus {
+    background: url(../../img/buy-btn.jpg) no-repeat center center #000;
+}
+
+/******************** 2. Forms *********************/
+
+/**** 2.1. Input ****/
+
+.uk-input,
+.uk-textarea,
+.uk-select,
+.woocommerce form .form-row input.input-text,
+.input-text,
+#mailing-list ._form._form_5._inline-form ._form_element input[type="text"]{
+    width: 100%;
+    border: 2px solid #fff;
+    font-weight: 500;
+    font-size: 16px;
+    color: #13181b;
+/* 	text-transform: uppercase; */
+    padding: 10px 15px;
+    font-size: 1rem;
+    height: auto;
+    line-height: 1;
+    background: #fff;
+}
+.uk-input:focus,
+.uk-textarea:focus,
+.uk-select:focus,
+#mailing-list ._form._form_5._inline-form ._form_element input[type="text"]:focus {
+    border-color: #d59b28;
+    background: #fff;
+}
+.mailing-list .uk-input:focus{
+    border-color: #20282d;
+}
+input[type="submit"],
+#mailing-list ._form._form_5._inline-form ._submit {
+    background: #20282d;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+#mailing-list ._form._form_5._inline-form ._submit {
+    background: #20282d !important;
+    color: #fff !important;
+    font-size: 14px;
+    border-radius: 0px !important;
+    padding: 10px 30px !important;
+    border: 2px solid #fff !important;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background: #d59b28;
+}
+#mailing-list ._form._form_5._inline-form ._submit:hover {
+    background: #d59b28 !important;
+}
+.shop-submit input[type="submit"] {
+    background: #d59b28;
+    border-color: #d59b28;
+    width: auto;
+}
+.shop-submit input[type="submit"]:hover,
+.shop-submit input[type="submit"]:focus {
+    background: #20282d;
+    border-color: #d59b28;
+}
+.woocommerce form .form-row textarea.input-text {
+    line-height: 1.2;
+    padding: 5px 10px;
+}
+label,
+.uk-legend {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+    width: auto;
+}
+.uk-checkbox,
+#field_1Accept {
+    border: 1px solid #d59b28;
+    height: 21px;
+    width: 21px;
+    border-radius: 2px;
+}
+.uk-checkbox:checked, .uk-checkbox:indeterminate,
+.input-radio:checked,
+input[type="checkbox"]:checked {
+    background-color: #d59b28;
+}
+.uk-checkbox:checked,
+input[type="checkbox"]:checked {
+    background-image: url("../../img/form-checkbox.svg");
+}
+.input-radio {
+    border: 1px solid #d59b28;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-top: -4px;
+}
+.input-radio:checked {
+    background-image: url("../../img/form-radio.svg");
+}
+.uk-radio:focus,
+.uk-checkbox:focus {
+	border-color: #d59b28;
+}
+.uk-radio:checked:focus,
+.uk-checkbox:checked:focus,
+.uk-checkbox:indeterminate:focus,
+.uk-radio:checked,
+.uk-checkbox:checked,
+.uk-checkbox:indeterminate {
+    background-color: #d59b28;
+}
+
+/**** 2.2. Placeholder ****/
+
+.uk-input::-ms-input-placeholder {
+    color: #aaa !important;
+}
+.uk-input::placeholder {
+    color: #aaa;    
+}
+.uk-textarea::-ms-input-placeholder {
+    color: #aaa !important;
+}
+.uk-textarea::placeholder {
+    color: #aaa;
+}
+
+/* Custom Select */
+
+.justselect-wrapper,
+.select2-container {
+    margin: 0 15px 15px 0;
+    min-width: 220px;
+	max-width: 220px;
+}
+.justselect-title,
+.select2-container--default .select2-selection--single {
+    color: #d59b28;
+    background: url(../../img/select.png) no-repeat 97% center #20282d;
+    border: 1px solid #d59b28;
+    text-transform: capitalize;
+    border-radius: 0;
+    text-align: left;
+    padding: 0 15px;
+    height: 40px;
+    font-size: 14px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #d59b28;
+    line-height: 38px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-width: 0;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    width: 0;
+    display: none;
+}
+.select2-hidden-accessible,
+.select2-dropdown {
+    border: none;
+    border-radius: 0;
+    padding: 10px 0;
+    background: #20282d;
+    color: #fff;
+    text-transform: capitalize;
+}
+.select2-container--default .select2-results > .select2-results__options {
+    max-height: 400px;
+    overflow-y: auto;
+}
+.select2-results__option {
+    background: #20282d;
+    color: #fff;
+    padding: 10px 24px;
+    font-size: 14px;
+}
+.select2-container--default .select2-results__option[data-selected="true"],
+.select2-container--default .select2-results__option--highlighted[data-selected] {
+    background-color: transparent;    
+    color: #d59b28;
+}
+.qib-container .qib-button {
+    color: #d59b28 !important;
+    background: #20282d !important;
+    border-color: #20282d !important;
+    cursor: pointer;
+}
+.qib-container div.quantity {
+    background: #20282d !important;
+}
+.qib-container .quantity input.qty {
+    border-color: #20282d !important;
+    font-family: 'Montserrat';
+    color: #d59b28 !important;
+    font-size: 16px !important;
+}
+form.cart .qib-container + button[type="submit"]:not(#qib_id):not(#qib_id) {
+    margin-left: 6px !important;
+}
+.wpcf7 form.sent .wpcf7-response-output {
+    border-color: #d59b28;
+}
+.join-team .select2-container {
+	width: 100% !important;
+}
+.join-team .select2-container--default .select2-selection--single {
+    color: #13181b;
+	border: 1px solid #fff;
+	background: url(../../img/select.png) no-repeat 97% center #fff;
+    font-weight: 500;
+	font-size: 1rem;
+	height: auto;
+}
+.join-team .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #13181b;
+	padding: 15px 0;
+	line-height: 1;
+}
+.join-team .select2-container--default.select2-container--open.select2-container--below .select2-selection--single {
+	border-color: #d59b28;
+}
+div.wpcf7 input[type="file"] {
+    height: 34px;
+}
+span.your-cv {
+	position: relative;
+}
+span.your-cv:before {
+	content: "Choose File";
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 30%);
+	padding: 5px;
+    border: 2px solid #d59b28;
+	background: #d59b28;
+	color: #fff;
+	width: 130px;
+	text-align: center;
+	cursor: pointer;
+}
+span.your-cv:hover::before {
+    border: 2px solid #fff;
+}
+span.your-cv > input {
+	opacity: 0;
+}
+#mailing-list ._form._form_5._inline-form {
+	background: transparent !important;
+	width: auto;
+	text-align: center;
+}
+
+/**** 2.3. Misc Form Elements ****/
+
+/*************** 3. Misc UI Elements ****************/
+.uk-light {
+    color: rgba(255, 255, 255, 1);
+}
+.uk-section-default {
+    background: #20282d;
+}
+.uk-section-primary {
+    background: #d59b28;
+}
+.uk-section-secondary {
+    background: #fff;
+}
+.uk-overlay-default {
+    background: rgba(19, 24, 27, 0.5);
+}
+.border-wrap {
+    padding: 30px 0;
+}
+.title-border {
+    padding-bottom: 30px;
+}
+.title-border h1 {
+    margin-bottom: 0;
+}
+.border-wrap::before,
+.border-wrap::after,
+.title-border::after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 1px;
+    background: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.border-wrap::before {
+    top: 0;
+}
+.border-wrap::after,
+.title-border::after {
+    bottom: 0;
+}
+.title-border-left {
+    padding-bottom: 20px;
+}
+.title-border-left::after {
+    left: 0;
+    transform: translateX(0%);
+}
+.title-border-left h2 {
+    margin-bottom: 10px;
+}
+.title-border-left p {
+    margin-bottom: 0;
+    color: #d59b28;
+}
+.uk-breadcrumb {
+    margin: 30px 0;
+}
+.woocommerce .woocommerce-breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #d59b28;
+    margin: 30px 0;
+    text-transform: uppercase;
+}
+.uk-breadcrumb > * > *,
+.woocommerce .woocommerce-breadcrumb a {
+    font-size: 14px;
+    color: #d59b28;
+    text-transform: uppercase;
+    position: relative;
+}
+.uk-breadcrumb > * > *:hover,
+.woocommerce .woocommerce-breadcrumb a:hover {
+    color: #fff;
+}
+.uk-breadcrumb > :last-child > * {
+    color: #d59b28;
+}
+.uk-breadcrumb > :nth-child(n+2):not(.uk-first-column)::before,
+.woocommerce .woocommerce-breadcrumb > :nth-child(n+1):not(.uk-first-column)::after {
+    content: "|";
+    margin: 0 10px;
+    color: #d59b28;
+}
+.uk-align-left {
+    margin-right: 15px;
+}
+.padding-bottom {
+    padding-bottom: 80px;
+}
+.uk-drop {
+    max-width: 370px;
+    width: 100%;
+}
+.uk-tooltip {
+    padding: 4px 10px;
+    background: #d59b28;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+}
+.woocommerce button.uk-button:disabled, .woocommerce button.uk-button:disabled[disabled] {
+    color: inherit;
+    cursor: not-allowed;
+    opacity: .5;
+}
+.uk-search-large .uk-search-input {
+    color: #fff;
+    font-weight: 400;
+}

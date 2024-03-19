@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Facebook Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-Footer" transform="translate(-46.000000, -306.000000)">
+            <g id="Facebook-Icon" transform="translate(48.000000, 308.000000)">
+                <g id="Group-5">
+                    <path d="M16.216274,32.0119452 L16.216274,21.1807123 L12.5713425,21.1807123 L12.5713425,16.9593425 L16.216274,16.9593425 L16.216274,13.8464658 C16.216274,10.2333151 18.4228493,8.26673973 21.6453151,8.26673973 C23.1894247,8.26673973 24.516,8.38126027 24.9028493,8.43276712 L24.9028493,12.2081096 L22.6672329,12.2092055 C20.9149041,12.2092055 20.575726,13.0420822 20.575726,14.264 L20.575726,16.9593425 L24.7554521,16.9593425 L24.2113425,21.1807123 L20.575726,21.1807123 L20.575726,32.0119452" id="Fill-1" fill="#D49B28"></path>
+                    <path d="M39.830137,19.9838904 C39.830137,30.9444384 30.9446575,39.8299178 19.9841096,39.8299178 C9.0230137,39.8299178 0.138082192,30.9444384 0.138082192,19.9838904 C0.138082192,9.02334247 9.0230137,0.137863014 19.9841096,0.137863014 C30.9446575,0.137863014 39.830137,9.02334247 39.830137,19.9838904 Z" id="Stroke-3" stroke="#D49B28" stroke-width="2.503" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

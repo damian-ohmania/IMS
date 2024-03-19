@@ -1,0 +1,49 @@
+
+/**************** General styles ******************** *
+ *  1. html, body
+ *  2. Containers
+ *  3. Global styles
+****************************************************/
+
+/**** 1. html, body ****/
+
+html {
+    color: #fff;
+}
+
+/**** 2. Containers ****/
+
+.uk-container-small {
+    width: 80%;
+}
+
+/**** 3. Global styles ****/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a,
+button,
+.transition {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.no-transition {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+*:focus {
+    outline: none !important;
+}
+hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    margin: 35px 0;
+}
